@@ -1,4 +1,6 @@
-package bst
+package main
+
+import "fmt"
 
 /** CLRS Chapter 12 **/
 
@@ -55,4 +57,19 @@ func (t *Bst) Insert(key int) {
 	} else {
 		parent.right = newNode
 	}
+}
+
+func (t *Bst) InOrderWalk(node *Node) []int {
+
+	// hacky workaround so i can equality test the values
+	var seq []int
+
+	if node != nil {
+		t.InOrderWalk(node.left)
+		fmt.Println(node.key)
+		seq = append(seq, node.key)
+		t.InOrderWalk(node.right)
+	}
+
+	return seq
 }

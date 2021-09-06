@@ -1,3 +1,3 @@
-package bst
+package main
 
 func main() {}
