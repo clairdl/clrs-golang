@@ -1,5 +1,3 @@
 package bst
 
-func main() {
-
-}
+func main() {}

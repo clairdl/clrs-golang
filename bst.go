@@ -20,7 +20,11 @@ type BstApi interface {
 	min()
 }
 
-func (t *Bst) getRoot() *Node {
+func newBst() *Bst {
+	return &Bst{nil}
+}
+
+func (t *Bst) GetRoot() *Node {
 	return t.root
 }
 
