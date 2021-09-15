@@ -1,6 +1,6 @@
 ## CLRS in Golang
 
-this will be a work in progress for quite a while, since it's very low-priority. I do intend to get through all 1,1313 pages one day, though.
+this will be a work in progress for quite a while, since it's very low-priority. I do intend to get through all 1,313 pages one day, though.
 
 [Here's](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf) the book (PDF)
 
